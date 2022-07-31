@@ -1,0 +1,50 @@
+.btn {
+    display: block;
+    width: 100%;
+    background: #125bee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.formControlCheck {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formControlCheck label {
+    flex: 1.5;
+    color: #393939;
+}
+
+.formControlCheck input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+    border-radius: 4px;
+    flex: 0.22;
+    height: 20px;
+}
+
+.formControlCheck a {
+    flex: 1.2;
+}

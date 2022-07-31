@@ -1,24 +1,14 @@
 import React from 'react'
-import Checkbox from './Checkbox'
-import RegistrationLink from './RegistrationLink'
-import Input from './Input'
+import Login from './Login/Login'
 import classes from './Container.module.css'
-import ButtonRegister from './ButtonRegister'
-import SocialIcons from './SocialIcons'
-import LabelSign from './LabelSign'
-import LabelOr from './LabelOr'
+import Register from './Register/Register'
+
 
 const Container = () => {
     return (
         <div className={classes.container}>
-            <ButtonRegister/>
-            <LabelSign/>
-            <SocialIcons/>
-            <LabelOr/>
-            <Input title={'Email address'} type={'text'} widthL={'8px'} widthR={'316px'}/>
-            <Input title={'Password'} type={'password'} widthL={'8px'} widthR={'348px'}/>
-            <Checkbox/>
-            <RegistrationLink/>
+            <Login/>
+            <Register/>
         </div>
     )
 }

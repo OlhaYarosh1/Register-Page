@@ -1,0 +1,53 @@
+.buttonBox {
+    width: 220px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.toggleBtnLogin {
+    left: -110px;
+    top: 0;
+    padding: 13px 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 205px;
+    height: 100%;
+    background: #125bee;
+    border-radius: 5px;
+}
+
+.toggleBtnRegister {
+    left: 120px;
+    top: -47px;
+    padding: 13px 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 100%;
+    background: #125bee;
+    border-radius: 5px;
+}
+
+.toggleBtnRegister:focus {
+    outline: none;
+}
+
+.toggleBtnLogin:focus {
+    outline: none;
+}
+
+.toggleBtnRegister:active {
+    transform: scale(0.98);
+}
+
+.toggleBtnLogin:active {
+    transform: scale(0.98);
+}

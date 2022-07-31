@@ -1,5 +1,6 @@
 .buttonBox {
     width: 220px;
+    height: 47px;
     margin: 20px auto;
     position: relative;
 }
@@ -18,6 +19,7 @@
     height: 100%;
     background: #125bee;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .toggleBtnRegister {
@@ -34,6 +36,7 @@
     height: 100%;
     background: #125bee;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .toggleBtnRegister:focus {

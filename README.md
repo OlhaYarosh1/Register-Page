@@ -3,7 +3,7 @@
 
 ### Install dependencies
 
-#### `npm install`
+#### `npm install --save --legacy-peer-deps`
 
 ### Run React dev server (http://localhost:3000)
 

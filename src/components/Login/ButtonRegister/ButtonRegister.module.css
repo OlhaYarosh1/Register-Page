@@ -1,12 +1,12 @@
 .buttonBox {
     width: 220px;
     height: 47px;
-    margin: 20px auto;
+    margin: 10px;
     position: relative;
 }
 
 .toggleBtnLogin {
-    left: -110px;
+    left: -10px;
     top: 0;
     padding: 13px 30px;
     cursor: pointer;
@@ -23,7 +23,7 @@
 }
 
 .toggleBtnRegister {
-    left: 120px;
+    left: 220px;
     top: -47px;
     padding: 13px 30px;
     cursor: pointer;
@@ -37,14 +37,6 @@
     background: #125bee;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.toggleBtnRegister:focus {
-    outline: none;
-}
-
-.toggleBtnLogin:focus {
-    outline: none;
 }
 
 .toggleBtnRegister:active {

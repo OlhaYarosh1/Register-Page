@@ -1,6 +1,7 @@
-.or {
+.signIn {
     text-align: center;
+    margin: var(--margin);
     font-size: 17px;
     color: #393939;
-    margin: 10px auto;
+    padding: 10px;
 }

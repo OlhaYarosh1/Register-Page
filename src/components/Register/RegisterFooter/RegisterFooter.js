@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './CheckboxRegister.module.css'
+import classes from './RegisterFooter.module.css'
 
 const CheckboxRegister = () => {
     return (

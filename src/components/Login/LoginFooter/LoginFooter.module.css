@@ -6,10 +6,10 @@
     border: none;
     padding: 10px 20px;
     margin: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none;
     font-size: 15px;
     font-family: inherit;
 }
@@ -22,29 +22,56 @@
     transform: scale(0.98);
 }
 
-.formControlCheck {
-    margin-top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.formControlCheck label {
-    flex: 1.5;
+.label {
+    width: 130px;
+    margin-left: -180px;
+    margin-top: -25px;
     color: #393939;
 }
 
-.formControlCheck input {
-    width: 100%;
-    height: 40px;
-    margin: 5px;
-    padding: 3px 7px;
+.forgotPassword {
+    margin-left: 250px;
+    margin-top: -30px;
+}
+
+.checkBox {
+    width: 5%;
+    margin: 10px 34px;
     font-size: 17px;
     border-radius: 4px;
     flex: 0.22;
     height: 20px;
+    z-index: 1;
 }
 
-.formControlCheck a {
-    flex: 1.2;
+.checkBox:checked~.circle {
+    width: 35px;
+    height: 35px;
+    background-color: #d5e1f9;
+    border-radius: 50%;
+    margin-top: -37px;
+    margin-left: 27px;
 }
+
+.checkBox:checked~.forgotPassword {
+    margin-top: -28px;
+}
+
+.checkBox:checked {
+    margin-top: 10px;
+}
+
+.checkBox:checked~a {
+    margin-top: -2px;
+}
+
+.checkBox:checked~.btn {
+    background-color: #125bee;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #393939;
+}
+

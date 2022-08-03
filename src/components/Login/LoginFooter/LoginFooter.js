@@ -1,17 +1,23 @@
 import React from 'react'
 import classes from './LoginFooter.module.css'
 
-const Checkbox = () => {
+const LoginFooter = () => {
     return (
         <>
-            <div className={classes.formControlCheck}>
-                <input type='checkbox'/>
-                <label>Remember me</label>
-                <a href='/'>Forgot password?</a>
-            </div>
-            <input type='submit' value='SIGN IN' className={classes.btn}/>
+                <input type='checkbox' className={classes.checkBox}/>
+                <div className={classes.circle}></div>
+                <div className={classes.forgotPassword}>
+                    <a href='/'>Forgot password?</a>
+                    <div className={classes.label}>Remember me</div>
+                </div>
+                <footer>
+                    <input type='submit' value='SIGN IN' className={classes.btn}/>
+                    <p>Not a member?&nbsp;
+                        <a href='/Register'>Register</a>
+                    </p>
+                </footer>
         </>
     )
 }
 
-export default Checkbox
+export default LoginFooter

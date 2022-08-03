@@ -6,10 +6,10 @@ import { faFacebookF, faGoogle, faTwitter, faGithub } from '@fortawesome/free-br
 const SocialIcons = () => {
     return (
         <div className={classes.socialIcons}>
-            <FontAwesomeIcon className={classes.img} icon={faFacebookF}/>
-            <FontAwesomeIcon className={classes.img} icon={faGoogle}/>
-            <FontAwesomeIcon className={classes.img} icon={faTwitter}/>
-            <FontAwesomeIcon className={classes.img} icon={faGithub}/>
+            <a href='/'><FontAwesomeIcon className={classes.img} icon={faFacebookF}/></a>
+            <a href='/'><FontAwesomeIcon className={classes.img} icon={faGoogle}/></a>
+            <a href='/'><FontAwesomeIcon className={classes.img} icon={faTwitter}/></a>
+            <a href='/'><FontAwesomeIcon className={classes.img} icon={faGithub}/></a>
         </div>
     )
 }

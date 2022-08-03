@@ -74,3 +74,11 @@ footer {
     text-align: center;
     color: #393939;
 }
+
+a {
+    color: #125bee;
+}
+
+a:focus {
+    color:blue;
+}

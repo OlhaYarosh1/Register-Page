@@ -46,3 +46,9 @@
 .toggleBtnLogin:active {
     transform: scale(0.98);
 }
+
+.toggleBtnLogin:focus,
+.toggleBtnRegister:focus{
+    background-color: #f4f4f4;
+    color: #393939;
+}

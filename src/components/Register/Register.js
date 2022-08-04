@@ -4,10 +4,12 @@ import Label from '../Login/Label/Label'
 import SocialIcons from '../Login/SocialIcons/SocialIcons'
 import RegisterFooter from './RegisterFooter/RegisterFooter'
 import classes from '../Login/Login.module.css'
+import ButtonRegister from './ButtonRegister/ButtonRegister'
 
 const Register = () => {
     return (
         <div className={classes.formBox}>
+            <ButtonRegister/>
             <Label title={'Sign up with:'} margin={'20px auto'}/>
             <SocialIcons/>
             <Label title={'or:'} margin={'10px auto'}/>

@@ -3,7 +3,7 @@ import Input from '../Login/Input/Input'
 import Label from '../Login/Label/Label'
 import SocialIcons from '../Login/SocialIcons/SocialIcons'
 import RegisterFooter from './RegisterFooter/RegisterFooter'
-import classes from '../Login/Login.module.css'
+import classes from './Register.module.css'
 import ButtonRegister from './ButtonRegister/ButtonRegister'
 
 const Register = () => {

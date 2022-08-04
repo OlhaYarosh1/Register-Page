@@ -38,18 +38,18 @@
 }
 
 .checkbox:checked ~ .circle {
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 42px;
     background-color: #d5e1f9;
     border-radius: 50%;
-    margin-top: -32.5px;
-    margin-left: 58.5px;
+    margin-top: -34.5px;
+    margin-left: 55.5px;
 }
 
 .checkbox:checked ~ .label {
-    margin-top: -29px;
+    margin-top: -34.5px;
 }
 
 .checkbox:checked ~ .btn {
-    margin-top: 19.5px;
+    margin-top: 20px;
 }

@@ -1,7 +1,6 @@
 .formBox {
-    display: block;
+    display: inline-block;
     width: 433px;
-    height: 590px;
+    height: 450px;
     position: relative;
-    overflow: hidden;
 }

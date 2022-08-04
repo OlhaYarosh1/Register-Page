@@ -5,7 +5,7 @@ const Input = ({title, type, widthL, widthR}) => {
     const style = {"--width-left": widthL, "--width-right": widthR}
     return (
         <div className={classes.box}>
-            <input className={classes.input} type={type} required></input>
+            <input className={classes.input} type={type} autoComplete="new-password" required></input>
             <div className={classes.grayBorder} style={style}></div>
             <div className={classes.blueBorder} style={style}></div>
             <div className={classes.placeholder}>{title}</div>

@@ -25,29 +25,38 @@
 .label {
     width: 430px;
     color: #393939;
-    margin-top: -27px;
-    margin-left: 95px;
+    margin-top: -34px;
+    margin-left: 98px;
 }
 
 .checkbox {
-    width: 100%;
+    width: 5%;
     font-size: 17px;
     border-radius: 4px;
     height: 20px;
-    margin-left: -140.5px;
+    margin-left: 65px;
+}
+
+.circle {
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: -35.5px;
+    margin-left: 54.5px;
+}
+
+.checkbox:focus ~ .circle {
+    background-color: #eaeaea;
 }
 
 .checkbox:checked ~ .circle {
-    width: 42px;
-    height: 42px;
     background-color: #d5e1f9;
-    border-radius: 50%;
-    margin-top: -34.5px;
-    margin-left: 55.5px;
+
 }
 
 .checkbox:checked ~ .label {
-    margin-top: -34.5px;
+    margin-top: -34px;
 }
 
 .checkbox:checked ~ .btn {

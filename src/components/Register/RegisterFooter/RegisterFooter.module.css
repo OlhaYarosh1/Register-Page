@@ -37,7 +37,7 @@
     margin-left: -140.5px;
 }
 
-.checkbox:checked~.circle {
+.checkbox:checked ~ .circle {
     width: 35px;
     height: 35px;
     background-color: #d5e1f9;
@@ -46,10 +46,10 @@
     margin-left: 58.5px;
 }
 
-.checkbox:checked~.label {
+.checkbox:checked ~ .label {
     margin-top: -29px;
 }
 
-.checkbox:checked~.btn {
+.checkbox:checked ~ .btn {
     margin-top: 19.5px;
 }

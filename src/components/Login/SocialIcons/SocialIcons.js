@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './SocialIcons.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faGoogle, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFacebookF, faGoogle, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const SocialIcons = () => {
     return (

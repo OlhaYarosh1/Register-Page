@@ -8,7 +8,7 @@ const ButtonLogin = () => {
             <button type='button' className={classes.toggleBtnLogin} autoFocus>
                 LOGIN
             </button>
-            <a href='http://localhost:3000/Register'>
+            <a href='./Register'>
                 <button type='button' className={classes.toggleBtnRegister}>
                     REGISTER
                 </button>

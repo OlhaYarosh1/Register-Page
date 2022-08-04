@@ -4,7 +4,7 @@ import classes from './ButtonRegister.module.css'
 const ButtonRegister = () => {
     return (
         <div className={classes.buttonBox}>
-            <a href='http://localhost:3000'>
+            <a href='./'>
                 <button type='button' className={classes.toggleBtnLogin}>
                     LOGIN
                 </button>

@@ -13,11 +13,11 @@
     border: 0;
     outline: none;
     position: relative;
-    color: #393939;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     width: 205px;
     height: 100%;
-    background: #f4f4f4;
+    background: #125bee;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -30,11 +30,11 @@
     border: 0;
     outline: none;
     position: relative;
-    color: #fff;
+    color: #393939;
     font-family: 'Poppins', sans-serif;
     width: 200px;
     height: 100%;
-    background: #125bee;
+    background: #f4f4f4;
     border-radius: 5px;
     font-weight: bold;
 }

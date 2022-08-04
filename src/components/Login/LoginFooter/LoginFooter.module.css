@@ -44,16 +44,16 @@
     z-index: 1;
 }
 
-.checkBox:checked~.circle {
-    width: 35px;
-    height: 35px;
+.checkBox:checked ~ .circle {
+    width: 42px;
+    height: 42px;
     background-color: #d5e1f9;
     border-radius: 50%;
-    margin-top: -37px;
-    margin-left: 27px;
+    margin-top: -41.5px;
+    margin-left: 23.5px;
 }
 
-.checkBox:checked~.forgotPassword {
+.checkBox:checked ~ .forgotPassword {
     margin-top: -28px;
 }
 
@@ -61,11 +61,11 @@
     margin-top: 10px;
 }
 
-.checkBox:checked~a {
+.checkBox:checked ~ a {
     margin-top: -2px;
 }
 
-.checkBox:checked~.btn {
+.checkBox:checked ~ .btn {
     background-color: #125bee;
 }
 
@@ -80,5 +80,5 @@ a {
 }
 
 a:focus {
-    color:blue;
+    color: blue;
 }

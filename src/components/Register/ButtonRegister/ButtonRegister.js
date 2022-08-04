@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../../Login/ButtonLogin/ButtonLogin.module.css'
+import classes from './ButtonRegister.module.css'
 
 const ButtonRegister = () => {
     return (

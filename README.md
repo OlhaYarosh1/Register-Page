@@ -19,7 +19,7 @@ In this project, I created a user-friendly page with a registration form and a l
 #### `npm start`
 
 ## The Final Look of the Login Form
-![FinalLooklogin](docs/FinalLooklogin.jpg)
+![FinalLookLogin](docs/FinalLooklogin.jpg)
 
 ## The Final Look of the Register Form
 ![FinalLookRegister](docs/FinalLookRegister.jpg)

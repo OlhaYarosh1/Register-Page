@@ -23,3 +23,9 @@ In this project, I created a user-friendly page with a registration form and a l
 
 ## The Final Look of the Register Form
 ![FinalLookRegister](docs/FinalLookRegister.jpg)
+
+## The Model
+![Model](docs/Model.png)
+
+## The Diagram
+![Diagram](docs/Diagram.png)
